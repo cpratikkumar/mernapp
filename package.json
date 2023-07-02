@@ -6,14 +6,16 @@
     "mongoose": "^7.3.1",
     "nodemon": "^2.0.22"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
-    "start": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "build": "npm i"
   },
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {},
-  "author": "",
-  "description": ""
+  "license": "MIT"
 }
